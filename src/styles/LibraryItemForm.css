@@ -1,0 +1,48 @@
+.form-main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #465362;
+  overflow: hidden;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.form-box {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  width: 50vw;
+  height: 90vh;
+  background-color: #82a3a1;
+  border-radius: 50px;
+  box-shadow: 0px 0px 50px 18px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  font-size: 16px;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+select {
+  font-size: 16px;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+label {
+  font-size: larger;
+  font-weight: bolder;
+  width: 300px;
+  height: 30px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
